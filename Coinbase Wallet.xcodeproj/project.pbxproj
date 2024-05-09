@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060FF6CA2B796CD40004EFFD /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060FF6C92B796CD40004EFFD /* Barlow-Light.ttf */; };
+		060FF6CC2B796F5B0004EFFD /* PublicSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060FF6CB2B796F5B0004EFFD /* PublicSans-Bold.ttf */; };
+		060FF6CE2B7970500004EFFD /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060FF6CD2B7970500004EFFD /* Barlow-Bold.ttf */; };
+		061172342BEA673E00E3ADE7 /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061172332BEA673D00E3ADE7 /* TagLayout.swift */; };
+		064883FA2B76E257007C0CB2 /* Coinbase_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064883F92B76E257007C0CB2 /* Coinbase_WalletApp.swift */; };
+		064883FC2B76E257007C0CB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064883FB2B76E257007C0CB2 /* ContentView.swift */; };
+		064883FE2B76E25C007C0CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064883FD2B76E25C007C0CB2 /* Assets.xcassets */; };
+		064884012B76E25C007C0CB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064884002B76E25C007C0CB2 /* Preview Assets.xcassets */; };
+		064884082B76E285007C0CB2 /* BackupWalletScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064884072B76E285007C0CB2 /* BackupWalletScreen.swift */; };
+		0648840B2B771382007C0CB2 /* TextInRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648840A2B771382007C0CB2 /* TextInRoundedRectangle.swift */; };
+		0648840D2B7725B5007C0CB2 /* ButtonBackUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648840C2B7725B5007C0CB2 /* ButtonBackUp.swift */; };
+		0648840F2B772ACD007C0CB2 /* SavedIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648840E2B772ACD007C0CB2 /* SavedIt.swift */; };
+		064884212B777176007C0CB2 /* ProtectWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064884202B777176007C0CB2 /* ProtectWallet.swift */; };
+		064884282B77B52A007C0CB2 /* ClaimUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064884272B77B52A007C0CB2 /* ClaimUsername.swift */; };
+		0648842A2B77BE39007C0CB2 /* HowitWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064884292B77BE39007C0CB2 /* HowitWorks.swift */; };
+		0648842F2B7842FB007C0CB2 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0648842E2B7842FB007C0CB2 /* PublicSans-Regular.ttf */; };
+		064884312B7843DB007C0CB2 /* IntroductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064884302B7843DB007C0CB2 /* IntroductScreen.swift */; };
+		064884332B784729007C0CB2 /* OpenSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 064884322B784729007C0CB2 /* OpenSans_Condensed-Regular.ttf */; };
+		064884352B784A37007C0CB2 /* OpenSans_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 064884342B784A37007C0CB2 /* OpenSans_SemiCondensed-Bold.ttf */; };
+		06A013B52B879F02009F45B3 /* EasyToRemeber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A013B42B879F02009F45B3 /* EasyToRemeber.swift */; };
+		06A2DD302B8A465C00A07BFB /* MultiColorRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2DD2F2B8A465C00A07BFB /* MultiColorRectangle.swift */; };
+		06A2DD322B8A58A300A07BFB /* ManageNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2DD312B8A58A200A07BFB /* ManageNFTView.swift */; };
+		06AE65D72B961A1000AC2595 /* BioAuthenicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE65D62B961A1000AC2595 /* BioAuthenicationManager.swift */; };
+		06F795AA2BE95D26009BB000 /* StrokeRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F795A92BE95D26009BB000 /* StrokeRectangleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060FF6C92B796CD40004EFFD /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		060FF6CB2B796F5B0004EFFD /* PublicSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Bold.ttf"; sourceTree = "<group>"; };
+		060FF6CD2B7970500004EFFD /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		061172332BEA673D00E3ADE7 /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
+		064883F62B76E257007C0CB2 /* Coinbase Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coinbase Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064883F92B76E257007C0CB2 /* Coinbase_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coinbase_WalletApp.swift; sourceTree = "<group>"; };
+		064883FB2B76E257007C0CB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		064883FD2B76E25C007C0CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064884002B76E25C007C0CB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		064884072B76E285007C0CB2 /* BackupWalletScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupWalletScreen.swift; sourceTree = "<group>"; };
+		0648840A2B771382007C0CB2 /* TextInRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInRoundedRectangle.swift; sourceTree = "<group>"; };
+		0648840C2B7725B5007C0CB2 /* ButtonBackUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackUp.swift; sourceTree = "<group>"; };
+		0648840E2B772ACD007C0CB2 /* SavedIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedIt.swift; sourceTree = "<group>"; };
+		0648841F2B77692A007C0CB2 /* Coinbase-Wallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Coinbase-Wallet-Info.plist"; sourceTree = SOURCE_ROOT; };
+		064884202B777176007C0CB2 /* ProtectWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectWallet.swift; sourceTree = "<group>"; };
+		064884272B77B52A007C0CB2 /* ClaimUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimUsername.swift; sourceTree = "<group>"; };
+		064884292B77BE39007C0CB2 /* HowitWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowitWorks.swift; sourceTree = "<group>"; };
+		0648842E2B7842FB007C0CB2 /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Regular.ttf"; sourceTree = "<group>"; };
+		064884302B7843DB007C0CB2 /* IntroductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductScreen.swift; sourceTree = "<group>"; };
+		064884322B784729007C0CB2 /* OpenSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		064884342B784A37007C0CB2 /* OpenSans_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		06A013B42B879F02009F45B3 /* EasyToRemeber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyToRemeber.swift; sourceTree = "<group>"; };
+		06A2DD2F2B8A465C00A07BFB /* MultiColorRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColorRectangle.swift; sourceTree = "<group>"; };
+		06A2DD312B8A58A200A07BFB /* ManageNFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageNFTView.swift; sourceTree = "<group>"; };
+		06AE65D62B961A1000AC2595 /* BioAuthenicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthenicationManager.swift; sourceTree = "<group>"; };
+		06F795A92BE95D26009BB000 /* StrokeRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeRectangleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064883F32B76E257007C0CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061172302BEA66BC00E3ADE7 /* SavedIt */ = {
+			isa = PBXGroup;
+			children = (
+				0648840E2B772ACD007C0CB2 /* SavedIt.swift */,
+				061172332BEA673D00E3ADE7 /* TagLayout.swift */,
+			);
+			path = SavedIt;
+			sourceTree = "<group>";
+		};
+		064883ED2B76E257007C0CB2 = {
+			isa = PBXGroup;
+			children = (
+				064883F82B76E257007C0CB2 /* Coinbase Wallet */,
+				064883F72B76E257007C0CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064883F72B76E257007C0CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064883F62B76E257007C0CB2 /* Coinbase Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064883F82B76E257007C0CB2 /* Coinbase Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				0648841F2B77692A007C0CB2 /* Coinbase-Wallet-Info.plist */,
+				064884102B7767C5007C0CB2 /* Fonts */,
+				064884092B771363007C0CB2 /* Views */,
+				064883F92B76E257007C0CB2 /* Coinbase_WalletApp.swift */,
+				064883FB2B76E257007C0CB2 /* ContentView.swift */,
+				064883FD2B76E25C007C0CB2 /* Assets.xcassets */,
+				064883FF2B76E25C007C0CB2 /* Preview Content */,
+			);
+			path = "Coinbase Wallet";
+			sourceTree = "<group>";
+		};
+		064883FF2B76E25C007C0CB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				064884002B76E25C007C0CB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		064884092B771363007C0CB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				064884242B77ACA3007C0CB2 /* Files */,
+				0648842D2B77BF08007C0CB2 /* HowitWorks */,
+				064884072B76E285007C0CB2 /* BackupWalletScreen.swift */,
+				0648840A2B771382007C0CB2 /* TextInRoundedRectangle.swift */,
+				0648840C2B7725B5007C0CB2 /* ButtonBackUp.swift */,
+				061172302BEA66BC00E3ADE7 /* SavedIt */,
+				064884202B777176007C0CB2 /* ProtectWallet.swift */,
+				064884272B77B52A007C0CB2 /* ClaimUsername.swift */,
+				064884302B7843DB007C0CB2 /* IntroductScreen.swift */,
+				06A013B42B879F02009F45B3 /* EasyToRemeber.swift */,
+				06A2DD2F2B8A465C00A07BFB /* MultiColorRectangle.swift */,
+				06A2DD312B8A58A200A07BFB /* ManageNFTView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		064884102B7767C5007C0CB2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				060FF6CD2B7970500004EFFD /* Barlow-Bold.ttf */,
+				060FF6CB2B796F5B0004EFFD /* PublicSans-Bold.ttf */,
+				060FF6C92B796CD40004EFFD /* Barlow-Light.ttf */,
+				064884342B784A37007C0CB2 /* OpenSans_SemiCondensed-Bold.ttf */,
+				064884322B784729007C0CB2 /* OpenSans_Condensed-Regular.ttf */,
+				0648842E2B7842FB007C0CB2 /* PublicSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		064884242B77ACA3007C0CB2 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				06AE65D62B961A1000AC2595 /* BioAuthenicationManager.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		0648842D2B77BF08007C0CB2 /* HowitWorks */ = {
+			isa = PBXGroup;
+			children = (
+				064884292B77BE39007C0CB2 /* HowitWorks.swift */,
+				06F795A92BE95D26009BB000 /* StrokeRectangleView.swift */,
+			);
+			path = HowitWorks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064883F52B76E257007C0CB2 /* Coinbase Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064884042B76E25C007C0CB2 /* Build configuration list for PBXNativeTarget "Coinbase Wallet" */;
+			buildPhases = (
+				064883F22B76E257007C0CB2 /* Sources */,
+				064883F32B76E257007C0CB2 /* Frameworks */,
+				064883F42B76E257007C0CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coinbase Wallet";
+			productName = "Coinbase Wallet";
+			productReference = 064883F62B76E257007C0CB2 /* Coinbase Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064883EE2B76E257007C0CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					064883F52B76E257007C0CB2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 064883F12B76E257007C0CB2 /* Build configuration list for PBXProject "Coinbase Wallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064883ED2B76E257007C0CB2;
+			productRefGroup = 064883F72B76E257007C0CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064883F52B76E257007C0CB2 /* Coinbase Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064883F42B76E257007C0CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060FF6CE2B7970500004EFFD /* Barlow-Bold.ttf in Resources */,
+				064884012B76E25C007C0CB2 /* Preview Assets.xcassets in Resources */,
+				064884352B784A37007C0CB2 /* OpenSans_SemiCondensed-Bold.ttf in Resources */,
+				060FF6CA2B796CD40004EFFD /* Barlow-Light.ttf in Resources */,
+				060FF6CC2B796F5B0004EFFD /* PublicSans-Bold.ttf in Resources */,
+				0648842F2B7842FB007C0CB2 /* PublicSans-Regular.ttf in Resources */,
+				064884332B784729007C0CB2 /* OpenSans_Condensed-Regular.ttf in Resources */,
+				064883FE2B76E25C007C0CB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064883F22B76E257007C0CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F795AA2BE95D26009BB000 /* StrokeRectangleView.swift in Sources */,
+				064883FC2B76E257007C0CB2 /* ContentView.swift in Sources */,
+				06AE65D72B961A1000AC2595 /* BioAuthenicationManager.swift in Sources */,
+				064884212B777176007C0CB2 /* ProtectWallet.swift in Sources */,
+				061172342BEA673E00E3ADE7 /* TagLayout.swift in Sources */,
+				06A2DD302B8A465C00A07BFB /* MultiColorRectangle.swift in Sources */,
+				064884312B7843DB007C0CB2 /* IntroductScreen.swift in Sources */,
+				0648840B2B771382007C0CB2 /* TextInRoundedRectangle.swift in Sources */,
+				0648840F2B772ACD007C0CB2 /* SavedIt.swift in Sources */,
+				0648840D2B7725B5007C0CB2 /* ButtonBackUp.swift in Sources */,
+				06A2DD322B8A58A300A07BFB /* ManageNFTView.swift in Sources */,
+				064884082B76E285007C0CB2 /* BackupWalletScreen.swift in Sources */,
+				064883FA2B76E257007C0CB2 /* Coinbase_WalletApp.swift in Sources */,
+				0648842A2B77BE39007C0CB2 /* HowitWorks.swift in Sources */,
+				06A013B52B879F02009F45B3 /* EasyToRemeber.swift in Sources */,
+				064884282B77B52A007C0CB2 /* ClaimUsername.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		064884022B76E25C007C0CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		064884032B76E25C007C0CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064884052B76E25C007C0CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coinbase Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = R2ASM278W3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coinbase-Wallet-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow app to use biometrics to log in";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "George.Coinbase-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064884062B76E25C007C0CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coinbase Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = R2ASM278W3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coinbase-Wallet-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow app to use biometrics to log in";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "George.Coinbase-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064883F12B76E257007C0CB2 /* Build configuration list for PBXProject "Coinbase Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064884022B76E25C007C0CB2 /* Debug */,
+				064884032B76E25C007C0CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064884042B76E25C007C0CB2 /* Build configuration list for PBXNativeTarget "Coinbase Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064884052B76E25C007C0CB2 /* Debug */,
+				064884062B76E25C007C0CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064883EE2B76E257007C0CB2 /* Project object */;
+}
